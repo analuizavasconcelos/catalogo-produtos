@@ -39,3 +39,19 @@ body {
 }
 
 /* .card-img-top {} */
+
+.desconto-atacado {
+    font-size: 24px;
+}
+
+.valor-desconto {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.btn-cart {
+    width: 330px;
+    height: 56px;
+    font-size: 20px;
+    font-weight: 700;
+}

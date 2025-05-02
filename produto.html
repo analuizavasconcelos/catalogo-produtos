@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style/style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+  <header class="container-navbar">
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="light">
+      <div class="container-fluid">
+        <div class="logo-navbar my-2">
+        <img src="/catalogo/Votre (1) (4).png" height="34px"  alt="logo">
+        </div>
+        <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+        <button class="btn btn-light me-4" type="submit">
+        <i class="bi bi-search"></i>
+        </button>
+        </form>
+      </div>
+    </nav>
+    <ul class="nav justify-content-center bg-dark py-2">
+      <li class="nav-item"><a class="nav-link" href="#">Mais Vendidos</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Descontos</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Limpeza de Casa</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Higiene Pessoal</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Acessórios de Limpeza</a></li>
+    </ul>
+  </header>
+  <!-- Seção Produto  -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h2 class="product-title">Nome Produto</h2>
+        <img src="/catalogo/produtos/alvejanteteiu.jpg"  height="100%" class="img-product" alt="Produto">
+      </div>
+      <div class="col-md-6">
+        <span class="preco-desconto"><s>R$ 150,90</s></span>
+        <p class="preco-produto fw-bold fs-4">R$ 150,90</p>
+        <button class="btn-cart btn btn-dark mb-3">
+          <i class="bi bi-cart2 me-3"></i>Adicionar ao Carrinho
+        </button>
+        <p class="desconto-atacado">Na compra de 3 produtos receba:</p>
+        <p class="valor-desconto text-success">R$ 5%</p>
+        <p class="desconto-atacado">de Desconto </p>
+        <p class="frete fw-bold"><i class="bi bi-truck"></i> Frete: R$ 100,00</p>
+        <p class="description mt-4">Produto de alta performance desenvolvido para garantir uma limpeza eficaz e prática no dia a dia. Com fórmula poderosa, remove sujeiras, gorduras e impurezas com facilidade, deixando um aroma agradável e sensação de frescor no ambiente. Ideal para uso doméstico ou profissional, proporciona brilho, proteção e cuidado para diferentes superfícies, contribuindo para um ambiente limpo, saudável e higienizado.</p>
+      </div>
+    </div>
+  </div>
+  
+
+    <!-- Footer -->
+  <footer class="container-footer bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Limpeza</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Limpador Perfumado</a></li>
+            <li><a href="#" class="text-white">Desinfetante</a></li>
+            <li><a href="#" class="text-white">Água Sanitária</a></li>
+            <li><a href="#" class="text-white">Desengordurante</a></li>
+            <li><a href="#" class="text-white">Limpa Vidros</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Higiene Pessoal</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Sabonete Líquido</a></li>
+            <li><a href="#" class="text-white">Álcool em Gel</a></li>
+            <li><a href="#" class="text-white">Lenços Umedecidos</a></li>
+            <li><a href="#" class="text-white">Desodorante</a></li>
+            <li><a href="#" class="text-white">Shampoo</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 g-5">
+            <img src="/catalogo/Votre (1) (4).png" height="60px" alt="" class="logo-footer">
+        </div>
+    </div>
+  </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastrar Produto</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="/style/style.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="container-navbar">
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="light">
+          <div class="container-fluid">
+            <div class="logo-navbar my-2">
+            <img src="/catalogo/Votre (1) (4).png" height="34px"  alt="logo">
+            </div>
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+            <button class="btn btn-light me-4" type="submit">
+            <i class="bi bi-search"></i>
+            </button>
+            </form>
+          </div>
+        </nav>
+  <div class="container pb-5">
+    <div class="form-container">
+      <img class="logo-cadastro d-block mx-auto mb-4" src="/catalogo/Votre - comercial (1).png" alt="logo-cadastro">
+      <h2 class="text-center mb-5">Cadastrar Produto</h2>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="nomeProduto" class="form-label">Nome do produto:</label>
+            <input type="text" class="form-control" id="nomeProduto" placeholder="Digite o nome aqui">
+          </div>
+          <div class="col-md-6">
+            <label for="categoria" class="form-label">Categoria</label>
+            <select class="form-select" id="categoria">
+              <option selected disabled>Selecione</option>
+              <option>Limpeza</option>
+              <option>Higiene</option>
+              <option>Acessorios</option>
+              <option>Outros</option>s
+            </select>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="fornecedor" class="form-label">Fornecedor</label>
+            <select class="form-select" id="fornecedor">
+              <option selected disabled>Selecione</option>
+              <option>Fornecedor A</option>
+              <option>Fornecedor B</option>
+              <option>Fornecedor C</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="preco" class="form-label">Preço</label>
+            <input type="number" class="form-control" id="preco" placeholder="Digite o preço" step="0.01">
+          </div>
+          <div class="col-md-3">
+            <label for="frete" class="form-label">Frete</label>
+            <input type="number" class="form-control" id="frete" placeholder="Digite o Frete" step="0.01">
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="descricao" class="form-label">Descrição</label>
+          <textarea class="form-control" id="descricao" rows="4" placeholder="Digite a Descrição do seu produto"></textarea>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-dark px-5">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+   <!-- Footer -->
+   <footer class="container-footer bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Limpeza</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Limpador Perfumado</a></li>
+            <li><a href="#" class="text-white">Desinfetante</a></li>
+            <li><a href="#" class="text-white">Água Sanitária</a></li>
+            <li><a href="#" class="text-white">Desengordurante</a></li>
+            <li><a href="#" class="text-white">Limpa Vidros</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Higiene Pessoal</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Sabonete Líquido</a></li>
+            <li><a href="#" class="text-white">Álcool em Gel</a></li>
+            <li><a href="#" class="text-white">Lenços Umedecidos</a></li>
+            <li><a href="#" class="text-white">Desodorante</a></li>
+            <li><a href="#" class="text-white">Shampoo</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 g-5">
+            <img src="/catalogo/Votre (1) (4).png" height="60px" alt="" class="logo-footer">
+        </div>
+    </div>
+  </footer>
+</body>
+</html>

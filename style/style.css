@@ -16,6 +16,8 @@ body {
 
 }
 
+/* Navbar */
+
 .nav-link {
     text-decoration: none;
     color: var(--color-white);
@@ -24,6 +26,9 @@ body {
 .logo-navbar {
     margin-left: 50px;
 }
+
+
+/* Produtos */
 
 .card {
     box-shadow: 3px 4px 10px #a8a8a8;
@@ -38,16 +43,43 @@ body {
     font-weight: 600;
 }
 
-/* .card-img-top {} */
-
 .desconto-atacado {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .valor-desconto {
-    font-size: 42px;
+    font-size: 52px;
     font-weight: 500;
 }
+
+.preco-desconto {
+    text-shadow: 1px 2px 3px var(--text-colors);
+    color: #D01010;
+}
+
+/* Produto- seção individualizada */
+
+.input-group{
+    height: 24px;
+    width: 120px;
+}
+
+.preco-produto-produto {
+    font-size: 2rem;
+}
+
+.preco-desconto-produto {
+    font-size: 1.6rem;
+    text-shadow: 1px 2px 3px var(--text-colors);
+    color: #D01010;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+
+/* Botão carrinho - produto  */
 
 .btn-cart {
     width: 330px;
@@ -55,3 +87,43 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
+
+/* Formulario Cadastro  */
+
+.logo-cadastro {
+    height: 58px;
+    width: 145px;
+    
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-label {
+  font-weight: 500;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .form-label {
+    font-weight: 500;
+  }
+
+  /* Footer */
+
+.text-white {
+    text-decoration: none;
+    font-size: 14px;
+}
+
